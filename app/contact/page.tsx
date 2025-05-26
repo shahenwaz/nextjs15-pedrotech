@@ -1,3 +1,5 @@
+import ContactButton from "./contactButton";
+
 export default async function Contact() {
   console.log("Hey is this in the server or client?");
 
@@ -9,7 +11,7 @@ export default async function Contact() {
   return (
     <>
       <div> Contact page </div>
-      <button>Click Me</button>
+      <ContactButton></ContactButton>
     </>
   );
 }
