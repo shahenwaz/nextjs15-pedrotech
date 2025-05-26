@@ -1,3 +1,11 @@
+"use client";
+
 export default function About() {
-  return <div> About page </div>;
+  console.log("Hey is this in the server or client?");
+  return (
+    <>
+      <div className="mb-5"> About Page </div>
+      <button onClick={() => alert("Hello...")}> Click Me </button>
+    </>
+  );
 }
